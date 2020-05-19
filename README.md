@@ -73,4 +73,5 @@ To help you get your feet wet and get you familiar with our contribution process
 ### License
 
 React is [MIT licensed](./LICENSE).
-(c) 2020 Phuong My Chi Entertainment LLC
+(c) 2020 Facebook Inc | Phuong My Chi Entertainment
+
