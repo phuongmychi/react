@@ -1,6 +1,6 @@
 # [React](https://reactjs.org/) &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/facebook/react/blob/master/LICENSE) [![npm version](https://img.shields.io/npm/v/react.svg?style=flat)](https://www.npmjs.com/package/react) [![CircleCI Status](https://circleci.com/gh/facebook/react.svg?style=shield&circle-token=:circle-token)](https://circleci.com/gh/facebook/react) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://reactjs.org/docs/how-to-contribute.html#your-first-pull-request)
 
-What Is React?
+#### What Is React?
 React is a JavaScript library for building user interfaces.
 React is a declarative, efficient, and flexible JavaScript library for building user interfaces. It lets you compose complex UIs from small and isolated pieces of code called “components”.
 
@@ -32,9 +32,10 @@ You can use React as a `<script>` tag from a [CDN](https://reactjs.org/docs/cdn-
 ### 1 Setting up a React Environment : C:/User/Admin> npm install -g create-react-app
 ### 2 Create React App Project :  C:/User/Admin> npx create-react-app phuongmychi
 ### 3 Run the React Application : C:/User/Admin> cd phuongmychi
-### C:/User/Admin/phuongmychi> npm run start
+### 3.1 C:/User/Admin/phuongmychi> npm run start
+### 4 Build React App : C:/User/Admin/phuongmychi> npm run build
 
-```
+```jsx
 import React,{Component} from 'react';
 class App extends Component{
   render(){
@@ -103,5 +104,5 @@ To help you get your feet wet and get you familiar with our contribution process
 ### License
 
 React is [MIT licensed](./LICENSE).
-© 2020 [Facebook](https://fb.me/react) | Phuong My Chi Entertainment
+## © 2020 [Facebook](https://fb.me/react) | Phuong My Chi Entertainment
 
