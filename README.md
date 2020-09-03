@@ -28,11 +28,11 @@ React has been designed for gradual adoption from the start, and **you can use a
 
 You can use React as a `<script>` tag from a [CDN](https://reactjs.org/docs/cdn-links.html), or as a `react` package on [npm](https://www.npmjs.com/package/react).
 ## npm i react
-# CREATE NEW REACT APP in CMD  :
-# 1 Setting up a React Environment : C:/User/Admin> npm install -g create-react-app
-# 2 Create React App Project :  C:/User/Admin> npx create-react-app phuongmychi
-# 3 Run the React Application : C:/User/Admin> cd phuongmychi
-# C:/User/Admin/phuongmychi> npm run start
+### CREATE NEW REACT APP in CMD  :
+### 1 Setting up a React Environment : C:/User/Admin> npm install -g create-react-app
+### 2 Create React App Project :  C:/User/Admin> npx create-react-app phuongmychi
+### 3 Run the React Application : C:/User/Admin> cd phuongmychi
+### C:/User/Admin/phuongmychi> npm run start
 
 ```
 import React,{Component} from 'react';
