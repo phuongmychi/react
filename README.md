@@ -27,6 +27,26 @@ React has been designed for gradual adoption from the start, and **you can use a
 * [Create a New React App](https://reactjs.org/docs/create-a-new-react-app.html) if you're looking for a powerful JavaScript toolchain.
 
 You can use React as a `<script>` tag from a [CDN](https://reactjs.org/docs/cdn-links.html), or as a `react` package on [npm](https://www.npmjs.com/package/react).
+## npm i react
+# CREATE NEW REACT APP in CMD  :
+# 1 Setting up a React Environment : C:/User/Admin> npm install -g create-react-app
+# 2 Create React App Project :  C:/User/Admin> npx create-react-app phuongmychi
+# 3 Run the React Application : C:/User/Admin> cd phuongmychi
+# C:/User/Admin/phuongmychi> npm run start
+
+```
+import React,{Component} from 'react';
+class App extends Component{
+  render(){
+    return(<div>I love Phuong My Chi</div>)
+  }
+
+}
+render(<App/> document.getElementById("root"))
+export default App;
+
+```
+
 
 ## Documentation
 
