@@ -1,0 +1,40 @@
+vòng đời của react component:
+mounting: 
+* contructor(props):
+	- Được tự động gọi trong quá trình tạo đối tượng trong 1 lớp
+	- dùng để khởi tạo state;
+	- dùng bind hanle event;
+	- phải có super props ở trên nếu cài đặt hàm
+* componenWillmount:
+		- Được khởi tạo trước khi render;
+		- Dùng để đăng ký các sự kiện toàn cục
+		-
+* render
+	- dùng để render html
+	- trả về đối tượng JSX
+* componenDidmount:
+		- Được gọi ngay sau khi hàm render chạy xong
+		- Dùng để fetch dữ liệu api từ server , 
+		sau đó dùng setState để render dữ liệu ra
+	
+		- có thể tương tác với Dom JS trong hàm này
+		
+Updating:
+ *componentWillRecieveProps:
+ - Được ngọi ngay sau khi component nhận 1 props mới
+ -  phải gọi setState nếu muốn render lại
+ 
+ * shouldComponentUpdate :
+ -  Được gọi trước khi render;
+ -  dùng để kiểm soát cập nhật ; 
+ - nếu phương thức trả về true component sẽ cập nhật , nếu false sẽ bỏ qua
+ - 		
+ * componentWillUpdate 	:
+ - Được gọi nếu hàm shouldComponentUpdate trả về true;
+ -  không được gọi setState cho hàm này bởi đây là hàm chuẩn bị update nếu không
+ sẽ gây ra lập vô hạn
+ 
+ * componentDidUpdate:
+ - Được gọi ngay sau khi cập nhật component sảy ra;
+ -  có thể thao tác với phần tử DOM bằng JS ;
+ 
